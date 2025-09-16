@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naveen Manthri | Full Stack Engineer</title>
+    <meta name="description" content="Personal portfolio of Naveen Manthri, a full stack engineer specializing in .NET, C#, React, and modern web technologies." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              dark: {
+                background: '#121212',
+                surface: '#1E1E1E',
+                primary: '#BB86FC',
+                secondary: '#03DAC6',
+                onBackground: '#EAEAEA',
+                onSurface: '#FFFFFF',
+              },
+              light: {
+                background: '#FFFFFF',
+                surface: '#F5F5F5',
+                primary: '#6200EE',
+                secondary: '#03DAC6',
+                onBackground: '#000000',
+                onSurface: '#000000',
+              }
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+              'slide-in-left': 'slideInLeft 0.8s ease-out forwards',
+              'slide-in-right': 'slideInRight 0.8s ease-out forwards',
+              'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              slideInLeft: {
+                '0%': { opacity: '0', transform: 'translateX(-30px)' },
+                '100%': { opacity: '1', transform: 'translateX(0)' },
+              },
+              slideInRight: {
+                '0%': { opacity: '0', transform: 'translateX(30px)' },
+                '100%': { opacity: '1', transform: 'translateX(0)' },
+              },
+              pulse: {
+                '0%, 100%': { opacity: '1' },
+                '50%': { opacity: '.7' },
+              }
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-light-background dark:bg-dark-background text-light-onBackground dark:text-dark-onBackground transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+
+import type { Project, Skill, ExperienceItem, EducationItem } from './types';
+import { CSharpIcon, DotNetIcon, ReactIcon, TypeScriptIcon, JavaScriptIcon, SqlServerIcon, PostgreSqlIcon, AzureIcon, GitIcon, FigmaIcon } from './components/icons/TechIcons';
+
+export const NAV_LINKS = [
+  { name: 'About', href: '#about' },
+  { name: 'Skills', href: '#skills' },
+  { name: 'Projects', href: '#projects' },
+  { name: 'Experience', href: '#experience' },
+  { name: 'Education', href: '#education' },
+  { name: 'Contact', href: '#contact' },
+];
+
+export const PROJECTS: Project[] = [
+  {
+    title: 'SwitchFxTech',
+    description: 'A US-based platform for rehabilitation management. Implemented session timeouts, optimized performance, and integrated Polly Circuit Breaker for fault tolerance.',
+    imageUrl: 'https://picsum.photos/seed/switchfx/600/400',
+    tags: ['ASP.NET Core', 'AngularJS', 'PostgreSQL', 'JavaScript', 'CSS'],
+    repoUrl: 'https://github.com/naveen-manthri',
+  },
+  {
+    title: 'FevTutor',
+    description: 'An EdTech platform for student-tutor interactions. Implemented Unit of Work pattern, integrated Serilog for logging, and automated session management.',
+    imageUrl: 'https://picsum.photos/seed/fevtutor/600/400',
+    tags: ['ASP.NET MVC', 'ReactJS', 'Oracle DB', 'REST API', 'JQuery'],
+    repoUrl: 'https://github.com/naveen-manthri',
+  },
+  {
+    title: 'BUZZ',
+    description: 'A platform for managing employee information and project assignments. Authored a resource request module and built a real-time ReactJS dashboard.',
+    imageUrl: 'https://picsum.photos/seed/buzz/600/400',
+    tags: ['C#', 'WebAPI', 'Entity Framework', 'ReactJS', 'CSS'],
+    repoUrl: 'https://github.com/naveen-manthri',
+  },
+  {
+    title: 'HRMS Portal',
+    description: 'A platform for efficient employee onboarding, leave management, and attendance tracking. Developed various modules and a scalable SQL Server database schema.',
+    imageUrl: 'https://picsum.photos/seed/hrms/600/400',
+    tags: ['C#', 'WebAPI', 'Dapper', 'SQL Server'],
+    repoUrl: 'https://github.com/naveen-manthri',
+  },
+];
+
+export const SKILLS: Skill[] = [
+    { name: 'C#', Icon: CSharpIcon },
+    { name: '.NET', Icon: DotNetIcon },
+    { name: 'React', Icon: ReactIcon },
+    { name: 'TypeScript', Icon: TypeScriptIcon },
+    { name: 'JavaScript', Icon: JavaScriptIcon },
+    { name: 'SQL Server', Icon: SqlServerIcon },
+    { name: 'PostgreSQL', Icon: PostgreSqlIcon },
+    { name: 'Azure', Icon: AzureIcon },
+    { name: 'Git', Icon: GitIcon },
+    { name: 'Figma', Icon: FigmaIcon },
+];
+
+
+export const EXPERIENCE: ExperienceItem[] = [
+    {
+        role: 'Associate Software Engineer',
+        company: 'Paltech Consulting Private Limited',
+        period: 'January 2023 - Present',
+        description: [
+            'Collaborated with stakeholders in requirements gathering, sprint grooming, and planning.',
+            'Operated in an Agile environment, actively participating in all phases of the SDLC.',
+            'Engineered email notification systems using SMTP, reducing manual communication by 30%.',
+            'Created reusable components like Table View and Toast Message.',
+            'Executed unit testing using XUnit/NUnit, achieving 98% code coverage.'
+        ]
+    },
+    {
+        role: 'Trainee Software Engineer',
+        company: 'Paltech Consulting Private Limited',
+        period: 'September 2021 - December 2022',
+        description: [
+            'Mastered .NET Advanced Concepts, including building RESTful APIs and implementing design patterns.',
+            'Enhanced front-end skills by crafting dynamic and responsive UIs using HTML, CSS, and JavaScript.',
+            'Revamped SQL Server database schemas, queries, and stored procedures, reducing query execution time by 30%.',
+            'Developed a Library Management System and an Asset Management System using .NET Core.'
+        ]
+    }
+];
+
+export const EDUCATION: EducationItem[] = [
+  {
+    institution: 'Jawaharlal Nehru Technical University',
+    degree: 'BTech - Computer Science Engineering',
+    period: 'September 2021 - August 2024',
+    details: 'CGPA: 7/10',
+  },
+  {
+    institution: 'Government Institute of Electronics',
+    degree: 'Diploma',
+    period: 'June 2017 - April 2021',
+    details: 'Grade: 75%',
+  },
+  {
+    institution: 'Telangana State Model School',
+    degree: 'Secondary Education',
+    period: 'March 2017',
+    details: 'GPA: 8.5/10',
+  },
+];
