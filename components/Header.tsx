@@ -60,7 +60,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a href="#" className="flex-shrink-0 font-bold text-xl text-light-primary dark:text-dark-primary">
-              NM
+              NAVEEN MANTHRI
             </a>
           </div>
           <div className="hidden md:block">
