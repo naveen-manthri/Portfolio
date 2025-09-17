@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
         <p className="text-lg mb-8 text-light-onBackground/80 dark:text-dark-onBackground/80 opacity-0 animate-fade-in-up" style={{ animationDelay: '100ms' }}>
           I'm currently open to new opportunities and collaborations. Feel free to reach out to me!
         </p>
-        <form method="POST" action="https://formsubmit.co/naveenmanthri16@gmail.com" className="hidden" ref={hiddenFormRef}>
+        <form method="POST" action="https://formsubmit.co/5c2450c92c1391e8e464005f354bf76b" className="hidden" ref={hiddenFormRef}>
           <input type="hidden" name="_subject" value="🚀 New Collaboration Request - Naveen Manthri's Portfolio" />
           <input type="hidden" name="_template" value="table" />
           <input type="hidden" name="_cc" value="devdeskweb@gmail.com"></input>
