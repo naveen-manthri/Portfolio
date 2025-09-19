@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
         </form>
         <div className="mt-8 opacity-0 animate-fade-in-up" style={{ animationDelay: '600ms' }}>
            <a
-            href="/assets/NaveenManthri_DotNetFullStackDev_Resume.pdf"
+            href="/assets/Naveen_Manthri_Fullstack_Dev_Resume.pdf"
             download
             className="inline-block bg-light-surface dark:bg-dark-surface text-light-onSurface dark:text-dark-onSurface font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-200 dark:hover:bg-gray-700 transform hover:scale-105 transition-all duration-300"
           >

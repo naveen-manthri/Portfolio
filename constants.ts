@@ -58,27 +58,27 @@ export const SKILLS: Skill[] = [
 
 export const EXPERIENCE: ExperienceItem[] = [
     {
-        role: 'Associate Software Engineer',
-        company: 'Paltech Consulting Private Limited',
-        period: 'January 2023 - Present',
-        description: [
-            'Collaborated with stakeholders in requirements gathering, sprint grooming, and planning.',
-            'Operated in an Agile environment, actively participating in all phases of the SDLC.',
-            'Engineered email notification systems using SMTP, reducing manual communication by 30%.',
-            'Created reusable components like Table View and Toast Message.',
-            'Executed unit testing using XUnit/NUnit, achieving 98% code coverage.'
-        ]
+      role: 'Associate Software Engineer',
+      company: 'Paltech Consulting Private Limited',
+      period: 'January 2023 - Present',
+      description: [
+        'Collaborated with stakeholders on requirements gathering and sprint planning, ensuring 100% alignment with project timelines.',
+        'Contributed across all phases of SDLC in an Agile environment to deliver scalable solutions.',
+        'Enhanced application performance by refining queries and APIs, reducing average response time by 35%.',
+        'Designed and deployed reusable UI components (buttons, modals, forms, tables) in JavaScript frameworks, improving consistency across modules and reducing frontend development effort by 20%.',
+        'Executed unit testing with XUnit/NUnit, achieving 98% code coverage and ensuring robust system reliability.'
+      ]
     },
     {
-        role: 'Trainee Software Engineer',
-        company: 'Paltech Consulting Private Limited',
-        period: 'September 2021 - December 2022',
-        description: [
-            'Mastered .NET Advanced Concepts, including building RESTful APIs and implementing design patterns.',
-            'Enhanced front-end skills by crafting dynamic and responsive UIs using HTML, CSS, and JavaScript.',
-            'Revamped SQL Server database schemas, queries, and stored procedures, reducing query execution time by 30%.',
-            'Developed a Library Management System and an Asset Management System using .NET Core.'
-        ]
+      role: 'Trainee Software Engineer',
+      company: 'Paltech Consulting Private Limited',
+      period: 'September 2021 - December 2022',
+      description: [
+        'Gained expertise in .NET Core, RESTful APIs, and design patterns, delivering maintainable and scalable solutions.',
+        'Crafted responsive UIs that improved user satisfaction ratings by 20% (from internal feedback surveys).',
+        'Revamped SQL Server schemas, queries, and stored procedures, reducing execution time by 30%.',
+        'Delivered Library Management System and Asset Management System in .NET Core, improving resource efficiency by 40% and reducing errors by 25%.'
+      ]
     }
 ];
 

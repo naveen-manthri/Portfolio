@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
           <span className="block text-light-primary dark:text-dark-primary">A Full Stack Engineer</span>
         </h1>
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-light-onBackground/80 dark:text-dark-onBackground/80 mb-8 opacity-0 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-           Full Stack Engineer with over 3 years of experience in the SDLC, proficient in backend technologies like .NET, C#, and SQL, and skilled in building RESTful services and modern frontend applications with React.
+           Fullstack developer with 4 years of expertise in .NET Core and have strong experience with microservice architectures. I build web applications using React and Angular and work with relational databases like SQL Server, Oracle, and PostgreSQL, with solid knowledge of Entity Framework. I am also familiar with few Azure services.
         </p>
         <div className="flex justify-center gap-4 opacity-0 animate-fade-in-up" style={{ animationDelay: '600ms' }}>
           <a
