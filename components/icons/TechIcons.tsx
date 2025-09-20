@@ -1,88 +1,73 @@
-import React from 'react';
+import Angular17Icon from '../../assets/tech-stacks/angular17.svg';
+import AtlassianIcon from '../../assets/tech-stacks/atlassian.svg';
+import AzureIcon from '../../assets/tech-stacks/azure.svg';
+import Bootstrap5Icon from '../../assets/tech-stacks/bootstrap5.svg';
+import CloudflareIcon from '../../assets/tech-stacks/cloudflare.svg';
+import CSharpIcon from '../../assets/tech-stacks/csharp.svg';
+import Css3Icon from '../../assets/tech-stacks/css3.svg';
+import EsbuildIcon from '../../assets/tech-stacks/esbuild.svg';
+import FigmaIcon from '../../assets/tech-stacks/figma.svg';
+import GitIcon from '../../assets/tech-stacks/git.svg';
+import GithubIcon from '../../assets/tech-stacks/github.svg';
+import GitlabIcon from '../../assets/tech-stacks/gitlab.svg';
+import Html5Icon from '../../assets/tech-stacks/html5.svg';
+import JiraIcon from '../../assets/tech-stacks/jira.svg';
+import JqueryIcon from '../../assets/tech-stacks/jquery.svg';
+import JsIcon from '../../assets/tech-stacks/js.svg';
+import JsonIcon from '../../assets/tech-stacks/json.svg';
+import MysqlIcon from '../../assets/tech-stacks/mysql.svg';
+import NetIcon from '../../assets/tech-stacks/net.svg';
+import NetCoreIcon from '../../assets/tech-stacks/netcore.svg';
+import NetlifyIcon from '../../assets/tech-stacks/netlify.svg';
+import NodejsIcon from '../../assets/tech-stacks/nodejs.svg';
+import NpmIcon from '../../assets/tech-stacks/npm.svg';
+import Npm2Icon from '../../assets/tech-stacks/npm2.svg';
+import OracleIcon from '../../assets/tech-stacks/oracle.svg';
+import PostgresqlIcon from '../../assets/tech-stacks/postgresql.svg';
+import PostmanIcon from '../../assets/tech-stacks/postman.svg';
+import ReactIcon from '../../assets/tech-stacks/react.svg';
+import SlackIcon from '../../assets/tech-stacks/slack.svg';
+import SwaggerIcon from '../../assets/tech-stacks/swagger.svg';
+import TailwindcssIcon from '../../assets/tech-stacks/tailwindcss.svg';
+import TypescriptIcon from '../../assets/tech-stacks/typescript.svg';
+import VercelIcon from '../../assets/tech-stacks/vercel.svg';
+import VitejsIcon from '../../assets/tech-stacks/vitejs.svg';
 
-// Simplified SVG icons for demonstration purposes
+export {
+  Angular17Icon,
+  AtlassianIcon,
+  AzureIcon,
+  Bootstrap5Icon,
+  CloudflareIcon,
+  CSharpIcon,
+  Css3Icon,
+  EsbuildIcon,
+  FigmaIcon,
+  GitIcon,
+  GithubIcon,
+  GitlabIcon,
+  Html5Icon,
+  JiraIcon,
+  JqueryIcon,
+  JsIcon,
+  JsonIcon,
+  MysqlIcon,
+  NetIcon,
+  NetCoreIcon,
+  NetlifyIcon,
+  NodejsIcon,
+  NpmIcon,
+  Npm2Icon,
+  OracleIcon,
+  PostgresqlIcon,
+  PostmanIcon,
+  ReactIcon,
+  SlackIcon,
+  SwaggerIcon,
+  TailwindcssIcon,
+  TypescriptIcon,
+  VercelIcon,
+  VitejsIcon,
+};
 
-export const ReactIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg viewBox="-11.5 -10.23174 23 20.46348" fill="currentColor" {...props}>
-    <circle cx="0" cy="0" r="2.05" fill="#61DAFB"/>
-    <g stroke="#61DAFB" strokeWidth="1" fill="none">
-      <ellipse rx="11" ry="4.2"/>
-      <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
-      <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
-    </g>
-  </svg>
-);
-
-export const TypeScriptIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg viewBox="0 0 128 128" fill="none" {...props}>
-    <path fill="#3178C6" d="M0 0h128v128H0z"/>
-    <path fill="#fff" d="M93.32 79.352v-2.344h-24.32v-5.232l23.584-29.36h-8.08L66.244 65.24V42.416h-7.248v36.936H93.32zM98.808 55.454c0-6.41-1.38-11.43-4.14-15.06-2.76-3.63-6.75-5.44-11.97-5.44-5.43 0-9.81 1.81-13.14 5.44-3.33 3.63-5 8.65-5 15.06v17.18c0 6.4 1.67 11.41 5 15.04s7.71 5.45 13.14 5.45c5.22 0 9.21-1.82 11.97-5.45s4.14-8.64 4.14-15.04V55.454zm-7.2 17.18c0 4.1-1 7.2-3 9.3s-4.7 3.1-8.1 3.1-6.1-1-8.1-3.1-3-5.2-3-9.3V55.454c0-4.11 1-7.21 3-9.31s4.7-3.16 8.1-3.16 6.1 1.05 8.1 3.16 3 5.2 3 9.31v17.18z"/>
-  </svg>
-);
-
-export const JavaScriptIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg viewBox="0 0 128 128" {...props}>
-    <rect width="128" height="128" fill="#F7DF1E"/>
-    <path d="M60.32,100.32c-1.12,1.84-2.88,3.28-5.2,4.32-2.32,1.12-4.96,1.6-7.84,1.6-4.4,0-7.84-1.2-10.4-3.52-2.56-2.32-3.84-5.6-3.84-9.92,0-3.6,1.04-6.64,3.2-9.12,2.16-2.48,5.12-3.68,8.96-3.68,2.72,0,5.12,0.56,7.2,1.76,2.08,1.2,3.6,2.88,4.48,5.12l-10.4,4.24c-0.16-0.88-0.56-1.52-1.2-2s-1.44-0.72-2.4-0.72c-1.2,0-2.24,0.4-3.04,1.12s-1.2,1.68-1.2,3.04c0,1.36,0.56,2.4,1.6,3.2,1.12,0.88,2.8,1.36,5.12,1.36,1.44,0,2.64-0.24,3.6-0.64,1.04-0.4,1.84-1.04,2.4-1.92L60.32,100.32z M95.28,76.32c-2.48,0-4.48,0.48-6.08,1.36-1.6,0.88-2.8,2.16-3.68,3.76-0.88,1.6-1.36,3.44-1.36,5.6,0,2.24,0.48,4.16,1.36,5.76,0.88,1.6,2.08,2.8,3.68,3.68,1.6,0.88,3.6,1.36,6.08,1.36,3.2,0,5.68-0.96,7.52-2.8,1.84-1.84,2.8-4.48,2.8-8,0-2.08-0.4-3.84-1.2-5.36-0.88-1.52-2-2.64-3.44-3.44-1.44-0.8-3.12-1.2-5.12-1.2z M95.28,96.32c-1.6,0-2.8-0.48-3.68-1.36s-1.36-2.08-1.36-3.6c0-1.6,0.48-2.8,1.36-3.68,0.88-0.88,2.08-1.36,3.68-1.36,1.6,0,2.8,0.48,3.68,1.36,0.88,0.88,1.36,2.08,1.36,3.68,0,1.52-0.48,2.72-1.36,3.6-0.88,0.88-2.08,1.36-3.68,1.36z"/>
-  </svg>
-);
-
-export const FigmaIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg viewBox="0 0 24 24" fill="none" {...props}>
-    <path fill="#F24E1E" d="M12 24a6 6 0 0 1-6-6V12a6 6 0 1 1 12 0v6a6 6 0 0 1-6 6z"/>
-    <path fill="#FF7262" d="M6 18a6 6 0 0 1-6-6V6a6 6 0 0 1 6-6h6a6 6 0 1 1 0 12H6v6z"/>
-    <path fill="#A259FF" d="M6 6a6 6 0 0 1 6-6h6a6 6 0 0 1 0 12h-6a6 6 0 0 1-6-6z"/>
-    <path fill="#1ABCFE" d="M18 6a6 6 0 0 1-6 6h- hükümet 6a6 6 0 0 1 0-12h6a6 6 0 0 1 6 6z"/>
-    <path fill="#0ACF83" d="M12 12a6 6 0 1 1 6 6v-6a6 6 0 0 1-6-6z"/>
-  </svg>
-);
-
-export const GitIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg viewBox="0 0 24 24" fill="#F05032" {...props}>
-    <path d="M23.365 9.635l-7.927-7.927a2.531 2.531 0 00-3.58 0l-7.927 7.927a2.531 2.531 0 000 3.58l3.11 3.11-2.454 2.453a2.534 2.534 0 103.58 3.582l2.454-2.454 3.11 3.11a2.531 2.531 0 003.58 0l7.927-7.927a2.531 2.531 0 000-3.58zM12.98 18.02a.844.844 0 11-1.192 1.192.844.844 0 011.192-1.192zM6.87 11.91a.844.844 0 11-1.192 1.192.844.844 0 011.192-1.192zm5.89 5.89a2.531 2.531 0 11-3.58-3.58 2.531 2.531 0 013.58 3.58zm5.06-5.06a.844.844 0 11-1.192 1.192.844.844 0 011.192-1.192z"/>
-  </svg>
-);
-
-export const CSharpIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-    <svg viewBox="0 0 100 100" fill="currentColor" {...props}>
-        <circle cx="50" cy="50" r="48" stroke="#6A0DAD" strokeWidth="4" fill="none" />
-        <text x="50" y="68" fontSize="60" textAnchor="middle" fontWeight="bold" fill="#6A0DAD">C#</text>
-    </svg>
-);
-
-export const DotNetIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-    <svg viewBox="0 0 24 24" fill="#512BD4" {...props}>
-        <path d="M14.46 19.82h-2.92v-2.92h2.92v2.92zm0-4.38h-2.92v-2.92h2.92v2.92zm0-4.38h-2.92V8.14h2.92v2.92zm0-4.38h-2.92V3.76h2.92v2.92zm4.38 8.76h-2.92v-2.92h2.92v2.92zm0-4.38h-2.92V8.14h2.92v2.92zm-8.76 4.38H7.16v-2.92h2.92v2.92zm0-4.38H7.16V8.14h2.92v2.92zM21 21H3V3h18v18zM5.08 5.08h13.84v13.84H5.08V5.08z" />
-    </svg>
-);
-
-export const SqlServerIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-    <svg viewBox="0 0 128 128" fill="currentColor" {...props}>
-        <path fill="#A6A6A6" d="M56 128h16v-9H56z"/>
-        <path fill="#C7C7C7" d="M48 119h32v-8H48z"/>
-        <path fill="#E81123" d="M104 111V83c0-11-8.9-20-20-20H44c-11.1 0-20 9-20 20v28c1 .7 2.1 1 3.2 1h73.6c1.1 0 2.2-.3 3.2-1z"/>
-        <path fill="#A30C17" d="M104 83v28c1 .7 2.1 1 3.2 1h-3.2v-1c0-11-9-20-20-20h-4v-8h-4v8h-32c-11 0-20 9-20 20v1h-3.2c1.1 0 2.2-.3 3.2-1V83c0-11 9-20 20-20h36c11 0 20 9 20 20z"/>
-        <path fill="#fff" d="M84.5 102.4c-6.8 2.3-14.2-2.3-16.5-9.1 -2.3-6.8 2.3-14.2 9.1-16.5 6.8-2.3 14.2 2.3 16.5 9.1C95.9 93.2 91.3 100.1 84.5 102.4zM47.8 91.3h-3.2v-3.2h3.2V91.3z"/>
-        <path fill="#E81123" d="M104 71V43c0-11-8.9-20-20-20H44c-11.1 0-20 9-20 20v28c1 .7 2.1 1 3.2 1h73.6c1.1 0 2.2-.3 3.2-1z"/>
-        <path fill="#A30C17" d="M104 43v28c1 .7 2.1 1 3.2 1h-3.2v-1c0-11-9-20-20-20h-4v-8h-4v8H44c-11 0-20 9-20 20v1h-3.2c1.1 0 2.2-.3 3.2-1V43c0-11 9-20 20-20h36c11 0 20 9 20 20z"/>
-        <path fill="#fff" d="M84.5 62.4c-6.8 2.3-14.2-2.3-16.5-9.1 -2.3-6.8 2.3-14.2 9.1-16.5 6.8-2.3 14.2 2.3 16.5 9.1C95.9 53.2 91.3 60.1 84.5 62.4zM47.8 51.3h-3.2v-3.2h3.2V51.3z"/>
-        <path fill="#E81123" d="M84 21h-4v-8h-4v8H44c-11 0-20 9-20 20v1h80v-1c0-11.1-9-20-20-20z"/>
-        <path fill="#A30C17" d="M104 41v-1c0-11-9-20-20-20h-4v-8h-4v8H44c-11 0-20 9-20 20v1h-3.2c-.1-.3-.2-.7-.2-1 0-11 9-20 20-20h3.4v-8h4v8h4v-8h4v8h12.6c11 0 20 9 20 20 0 .3-.1.7-.2 1H104z"/>
-        <path fill="#fff" d="M47.8 11.3h-3.2V8.1h3.2V11.3zM84.5 22.4c-6.8 2.3-14.2-2.3-16.5-9.1 -2.3-6.8 2.3-14.2 9.1-16.5 6.8-2.3 14.2 2.3 16.5 9.1C95.9 13.2 91.3 20.1 84.5 22.4z"/>
-    </svg>
-);
-
-export const PostgreSqlIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-    <svg viewBox="0 0 203.2 196.8" fill="#336791" {...props}>
-      <path d="M141.6,136.8v-32.8c0-8.8-4.8-14-14-14H96.4V4.8C148,11.2,188,54,188,108.4c0,2.8-0.4,5.6-0.8,8.4L141.6,136.8z"/>
-      <path d="M81.2,192c-54.4-4-94.8-48.4-94.8-103.2c0-30.8,13.2-58.4,34.4-76.8l45.2,45.2V192z"/>
-      <path d="M127.6,152h-31.2v30.4c6,1.2,12,2,18,2C122.8,184.4,127.6,170,127.6,152z"/>
-      <path d="M152.8,124.4V80c0-6.8-4.4-12.8-10.8-12.8H128V46c3-1.6,6.4-2.8,9.6-4.4l33.2,33.2c5.6,14.8,8.8,30.8,8.8,47.6 C180,123.2,168,124.4,152.8,124.4z"/>
-    </svg>
-);
-
-export const AzureIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-    <svg viewBox="0 0 24 24" fill="#0078D4" {...props}>
-        <path d="M13.09 2.1c-.26-.26-.69-.26-.95 0L6.9 7.34l-4.5-2.15c-.32-.15-.7.05-.79.39-.09.33.09.68.4.79l5.09 2.42L1.87 14.1c-.26.26-.26.69 0 .95l.23.23L7.34 20.8l2.15 4.5c.15.32.55.43.88.29.33-.14.5-.52.41-.86l-2.42-5.09L13.7 14.3l5.28 5.28c.26.26.69.26.95 0l4.97-4.97c.26-.26.26-.69 0-.95L13.09 2.1z"/>
-    </svg>
-);
+// export { ReactIcon, AngularIcon };
