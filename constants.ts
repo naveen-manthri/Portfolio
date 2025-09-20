@@ -1,6 +1,42 @@
 
 import type { Project, Skill, ExperienceItem, EducationItem } from './types';
-import { CSharpIcon, DotNetIcon, ReactIcon, TypeScriptIcon, JavaScriptIcon, SqlServerIcon, PostgreSqlIcon, AzureIcon, GitIcon, FigmaIcon } from './components/icons/TechIcons';
+
+import {
+  Angular17Icon,
+  AtlassianIcon,
+  AzureIcon,
+  Bootstrap5Icon,
+  CSharpIcon,
+  CloudflareIcon,
+  Css3Icon,
+  EsbuildIcon,
+  FigmaIcon,
+  GitIcon,
+  GithubIcon,
+  GitlabIcon,
+  Html5Icon,
+  JiraIcon,
+  JqueryIcon,
+  JsIcon,
+  JsonIcon,
+  MysqlIcon,
+  NetCoreIcon,
+  NetIcon,
+  NetlifyIcon,
+  NodejsIcon,
+  Npm2Icon,
+  OracleIcon,
+  PostgresqlIcon,
+  PostmanIcon,
+  ReactIcon,
+  SlackIcon,
+  SwaggerIcon,
+  TailwindcssIcon,
+  TypescriptIcon,
+  VercelIcon,
+  VitejsIcon,
+} from './components/icons/TechIcons';
+
 
 export const NAV_LINKS = [
   { name: 'About', href: '#about' },
@@ -43,18 +79,39 @@ export const PROJECTS: Project[] = [
 ];
 
 export const SKILLS: Skill[] = [
-    { name: 'C#', Icon: CSharpIcon },
-    { name: '.NET', Icon: DotNetIcon },
-    { name: 'React', Icon: ReactIcon },
-    { name: 'TypeScript', Icon: TypeScriptIcon },
-    { name: 'JavaScript', Icon: JavaScriptIcon },
-    { name: 'SQL Server', Icon: SqlServerIcon },
-    { name: 'PostgreSQL', Icon: PostgreSqlIcon },
-    { name: 'Azure', Icon: AzureIcon },
-    { name: 'Git', Icon: GitIcon },
-    { name: 'Figma', Icon: FigmaIcon },
+  { name: '.NET', Icon: NetIcon },
+  { name: '.NET Core', Icon: NetCoreIcon },
+  { name: 'C#', Icon: CSharpIcon },
+  { name: 'Angular', Icon: Angular17Icon },
+  { name: 'Atlassian', Icon: AtlassianIcon },
+  { name: 'React', Icon: ReactIcon },
+  { name: 'TypeScript', Icon: TypescriptIcon },
+  { name: 'JavaScript', Icon: JsIcon },
+  { name: 'HTML', Icon: Html5Icon },
+  { name: 'CSS', Icon: Css3Icon },
+  { name: 'JSON', Icon: JsonIcon },
+  { name: 'Oracle', Icon: OracleIcon },
+  { name: 'PostgreSQL', Icon: PostgresqlIcon },
+  { name: 'MySQL', Icon: MysqlIcon },
+  { name: 'Azure', Icon: AzureIcon },
+  { name: 'Git', Icon: GitIcon },
+  { name: 'GitHub', Icon: GithubIcon },
+  { name: 'Gitlab', Icon: GitlabIcon },
+  { name: 'TailwindCSS', Icon: TailwindcssIcon },
+  { name: 'Bootstrap', Icon: Bootstrap5Icon },
+  { name: 'Jira', Icon: JiraIcon },
+  { name: 'Slack', Icon: SlackIcon },
+  { name: 'Swagger', Icon: SwaggerIcon },
+  { name: 'Postman', Icon: PostmanIcon },
+  { name: 'Vercel', Icon: VercelIcon },
+  { name: 'ViteJS', Icon: VitejsIcon },
+  { name: 'Node.js', Icon: NodejsIcon },
+  { name: 'NPM', Icon: Npm2Icon },
+  { name: 'jQuery', Icon: JqueryIcon },
+  { name: 'Figma', Icon: FigmaIcon },
+  { name: 'Cloudflare', Icon: CloudflareIcon },
+  { name: 'Esbuild', Icon: EsbuildIcon },
 ];
-
 
 export const EXPERIENCE: ExperienceItem[] = [
     {

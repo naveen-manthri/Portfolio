@@ -38,9 +38,7 @@ export const ArrowUpIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 );
 
 export const GraduationCapIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" {...props}>
-        <path d="M12 14l9-5-9-5-9 5 9 5z" />
-        <path d="M12 14l6.16-3.422A12.083 12.083 0 0122 12a12.083 12.083 0 01-3.84 8.578A12.023 12.023 0 0112 22a12.023 12.023 0 01-6.16-3.422A12.083 12.083 0 012 12c0 2.25.61 4.383 1.68 6.158L12 14z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M22 12h-2m-2-2v2m-2 4h.01" />
+    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#6200ee">
+      <path d="M479-120 189-279v-240L40-600l439-240 441 240v317h-60v-282l-91 46v240L479-120Zm0-308 315-172-315-169-313 169 313 172Zm0 240 230-127v-168L479-360 249-485v170l230 127Zm1-240Zm-1 74Zm0 0Z"/>
     </svg>
 );
