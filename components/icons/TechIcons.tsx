@@ -32,6 +32,7 @@ import TailwindcssIcon from '../../assets/tech-stacks/tailwindcss.svg';
 import TypescriptIcon from '../../assets/tech-stacks/typescript.svg';
 import VercelIcon from '../../assets/tech-stacks/vercel.svg';
 import VitejsIcon from '../../assets/tech-stacks/vitejs.svg';
+import SqlServerIcon from '../../assets/tech-stacks/sql-server.svg';
 
 export {
   Angular17Icon,
@@ -68,6 +69,5 @@ export {
   TypescriptIcon,
   VercelIcon,
   VitejsIcon,
+  SqlServerIcon,
 };
-
-// export { ReactIcon, AngularIcon };

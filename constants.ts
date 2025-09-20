@@ -35,6 +35,7 @@ import {
   TypescriptIcon,
   VercelIcon,
   VitejsIcon,
+  SqlServerIcon,
 } from './components/icons/TechIcons';
 
 
@@ -90,9 +91,10 @@ export const SKILLS: Skill[] = [
   { name: 'HTML', Icon: Html5Icon },
   { name: 'CSS', Icon: Css3Icon },
   { name: 'JSON', Icon: JsonIcon },
+  { name: 'MS SQL Server', Icon: SqlServerIcon },
   { name: 'Oracle', Icon: OracleIcon },
   { name: 'PostgreSQL', Icon: PostgresqlIcon },
-  { name: 'MySQL', Icon: MysqlIcon },
+  // { name: 'MySQL', Icon: MysqlIcon },
   { name: 'Azure', Icon: AzureIcon },
   { name: 'Git', Icon: GitIcon },
   { name: 'GitHub', Icon: GithubIcon },
@@ -109,8 +111,8 @@ export const SKILLS: Skill[] = [
   { name: 'NPM', Icon: Npm2Icon },
   { name: 'jQuery', Icon: JqueryIcon },
   { name: 'Figma', Icon: FigmaIcon },
-  { name: 'Cloudflare', Icon: CloudflareIcon },
-  { name: 'Esbuild', Icon: EsbuildIcon },
+  // { name: 'Cloudflare', Icon: CloudflareIcon },
+  // { name: 'Esbuild', Icon: EsbuildIcon },
 ];
 
 export const EXPERIENCE: ExperienceItem[] = [
